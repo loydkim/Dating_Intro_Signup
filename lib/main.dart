@@ -63,31 +63,23 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final SwiperController _swiperController = SwiperController();
   Timer _timer;
-  int _start = 4;
 
   @override
   void initState() {
     if(mounted){ _startTimer(); }
-    _swiperController.addListener(() {
-      _timer.cancel();
-      _startTimer();
-    });
     super.initState();
   }
 
   void _startTimer(){
-    _start = 4;
-    _timer = new Timer.periodic(const Duration(milliseconds: 1600), (timer) {
-      setState(() {
-        if(_start < 1 ){
-          _timer.cancel();
-          _swiperController.next();
-          _startTimer();
-        }else{
-          _start = _start - 1;
-        }
-      });
+    _timer = new Timer.periodic(const Duration(milliseconds: 3400), (timer) {
+      _swiperController.next();
     });
+  }
+
+  @override
+  void dispose() {
+    _timer.cancel();
+    super.dispose();
   }
 
   @override
