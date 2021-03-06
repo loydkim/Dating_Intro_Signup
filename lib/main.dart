@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: NetworkImage('https://www.pptgrounds.com/wp-content/uploads/2018/05/Red-Business-PPT-Backgrounds-800x600.jpg'),
+              image: NetworkImage('https://i.pinimg.com/564x/40/97/a9/4097a9be2792b98cd3c1ed69088ec42f.jpg'),
               fit: BoxFit.cover
             )
           ),
