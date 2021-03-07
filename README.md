@@ -7,7 +7,7 @@
 * Develop Environment.
 
 - Flutter SDK: 2.0.1
-- Dart: 2.12
+- Dart: 2.1
 - Xcode Version: 12.2
 - Android Studio: 4.1.1
 - OS Version: MacOS Big Sur 11.2.1
