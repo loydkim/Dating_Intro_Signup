@@ -2,7 +2,7 @@
 
 <a href="https://www.buymeacoffee.com/loydkim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 14px !important;width: 40px !important;" ></a>
 
-<img src="https://github.com/loydkim/Dating_Intro_Signup/blob/main/DatingIntroPromo.gif" width="300" height="580">
+<img src="https://github.com/loydkim/Dating_Intro_Signup/blob/main/DatingItnroPromo_android.gif" width="300" height="520">
 
 * Develop Environment.
 
