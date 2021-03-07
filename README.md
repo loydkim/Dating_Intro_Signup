@@ -4,6 +4,12 @@
 
 <img src="https://github.com/loydkim/Dating_Intro_Signup/blob/main/DatingItnroPromo_android.gif" width="300" height="480">
 
+* Download launched app
+
+iOS: https://apps.apple.com/us/app/zoa/id1511213810
+
+android: https://play.google.com/store/apps/details?id=dating.you.and.me.loyd.app.example.flutter.com.meandyoudatingapp
+
 * Develop Environment.
 
 - Flutter SDK: 2.0.1
